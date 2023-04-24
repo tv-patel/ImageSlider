@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ImageSlider"
+        tools:targetApi="31">
+        <activity
+            android:name=".eightenn"
+            android:exported="false" />
+        <activity
+            android:name=".seventeen"
+            android:exported="false" />
+        <activity
+            android:name=".sixteen"
+            android:exported="false" />
+        <activity
+            android:name=".fifteen"
+            android:exported="false" />
+        <activity
+            android:name=".fourteen"
+            android:exported="false" />
+        <activity
+            android:name=".tharteen"
+            android:exported="false" />
+        <activity
+            android:name=".twelve"
+            android:exported="false" />
+        <activity
+            android:name=".eleven"
+            android:exported="false" />
+        <activity
+            android:name=".ten"
+            android:exported="false" />
+        <activity
+            android:name=".nine"
+            android:exported="false" />
+        <activity
+            android:name=".eight"
+            android:exported="false" />
+        <activity
+            android:name=".seven"
+            android:exported="false" />
+        <activity
+            android:name=".six"
+            android:exported="false" />
+        <activity
+            android:name=".five"
+            android:exported="false" />
+        <activity
+            android:name=".four"
+            android:exported="false" />
+        <activity
+            android:name=".three"
+            android:exported="false" />
+        <activity
+            android:name=".two"
+            android:exported="false" />
+        <activity
+            android:name=".one"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
